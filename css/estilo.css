@@ -152,3 +152,90 @@ body {
     border-radius: 20px;
     height: 38px;
 }
+
+#footer {
+    background: #C133B7;
+}
+
+#footer p{
+    font-weight: 200;
+    margin-top: 5px;
+}
+
+#footer .logo{
+    width: 50%;
+    margin-left: 20%;
+}
+
+#footer .icons{
+    width: 40%;
+    margin-left: 25%;
+}
+
+/*MEDIA QUERIES*/
+
+@media screen and (min-width: 320px) {
+   #rocketpage .titulo h3{
+       font-size: 25px;
+       font-weight: 300;
+   }
+
+   #rocketpage .imagem {
+       width: 70%;
+   }
+
+   #video iframe {
+       width: 250px;
+   }
+}
+
+@media screen and (min-width: 768px) {
+    #inicial .logo{
+        width: 50%;
+        margin-left: -50px;
+    }
+
+    #ferramentas .titulo{
+        text-align: center;
+    }
+
+    #ferramentas .paragrafo {
+        text-align: center;
+    }
+
+    #ferramentas .botao {
+        width: 60%;
+        margin-left: 20%;
+    }
+
+    #ferramentas .imagem {
+        width: 60%;
+        margin-left: 20%;
+    }
+
+    #rocketpage .imagem {
+        width: 80%;
+    }
+
+    #video iframe {
+        width: 600px;
+        height: 400px;
+        margin-bottom: 20px;
+    }
+
+    #cadastro input {
+        width: 70%;
+    }
+
+    #cadastro button {
+        width: 40%;
+    }
+}
+
+#footer p {
+    padding-top: 20px;
+}
+
+#footer .logo {
+    padding-top: 20px;
+}
