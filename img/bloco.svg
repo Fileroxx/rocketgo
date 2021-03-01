@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="262.235" height="378.5" viewBox="0 0 262.235 378.5">
+  <defs>
+    <linearGradient id="linear-gradient" x1="4.446" y1="-6.343" x2="1.814" y2="-5.881" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#bcbeff"/>
+      <stop offset="0.15" stop-color="#b5b8fc"/>
+      <stop offset="0.36" stop-color="#a3a7f5"/>
+      <stop offset="0.6" stop-color="#848be9"/>
+      <stop offset="0.87" stop-color="#5a64d8"/>
+      <stop offset="0.89" stop-color="#5761d7"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="4.552" y1="5.241" x2="2.527" y2="4.717" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#e9e9fd"/>
+      <stop offset="0.36" stop-color="#d3d2f9"/>
+      <stop offset="0.71" stop-color="#c5c4f7"/>
+      <stop offset="1" stop-color="#c0bff6"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="3.451" y1="-9.189" x2="4.657" y2="-10.238" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#e9e9fd"/>
+      <stop offset="0.54" stop-color="#d1d0f9"/>
+      <stop offset="1" stop-color="#c0bff6"/>
+    </linearGradient>
+  </defs>
+  <g id="Grupo_11" data-name="Grupo 11" transform="translate(-1697.882 -1304.5)">
+    <g id="Camada_2" data-name="Camada 2" transform="translate(1697.882 1304.5)">
+      <g id="Layer_1" data-name="Layer 1">
+        <path id="Caminho_2106" data-name="Caminho 2106" d="M131.121,515.532,0,439.831l131.114-75.7,131.114,75.7Z" transform="translate(0 -137.033)" fill="#0b0244" opacity="0.4"/>
+        <path id="Caminho_2107" data-name="Caminho 2107" d="M131.121,348.477,0,272.776V121.38l131.121,75.7Z" transform="translate(0 -45.679)" fill="url(#linear-gradient)"/>
+        <path id="Caminho_2108" data-name="Caminho 2108" d="M341.354,272.776l-131.114,75.7v-151.4l131.114-75.7Z" transform="translate(-79.119 -45.679)" fill="url(#linear-gradient-2)"/>
+        <path id="Caminho_2109" data-name="Caminho 2109" d="M131.121,151.4,0,75.7,131.114,0,262.229,75.7Z" fill="url(#linear-gradient-3)"/>
+        <path id="Caminho_2110" data-name="Caminho 2110" d="M131.121,189.856,4.8,116.93,0,119.705,131.121,195.4l131.114-75.695-4.8-2.769Z" transform="translate(0 -44.004)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

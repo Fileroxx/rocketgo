@@ -1,0 +1,154 @@
+body {
+    background: linear-gradient(to bottom,#44147B, #2A1468) no-repeat center center;
+    background-size: cover;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#inicial {
+    background: url('../img/bg1.svg') no-repeat bottom center;
+    background-size: cover;
+}
+
+
+#inicial .logo img{
+    width: 60%;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+#inicial .texto .titulo h1{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+#inicial .texto .titulo span {
+    font-weight: 700;
+}
+
+#inicial .texto .paragrafo .p1 {
+    font-weight: 300;
+    font-size: 15px;
+    text-align: center;
+}
+
+#inicial .texto .paragrafo .p2 {
+    font-size: 15px;
+    font-weight: 300;
+    text-align: left;
+}
+
+#inicial .texto .paragrafo .p2 span {
+    font-weight: 700;
+}
+
+#inicial .texto .paragrafo .p3 {
+    font-weight: 300;
+}
+
+#inicial .texto .paragrafo .p3 span {
+    font-weight: 700;
+}
+
+#inicial .botao {
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+    position:relative;
+    height: 40px;
+    background: #C133B7;
+    box-shadow: 0px 25px 6px rgba(0,0,0,0.16);
+}
+
+#profissional .titulo {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+#profissional .titulo span {
+    font-weight: 700;
+}
+
+#profissional .paragrafo {
+    font-weight: 300;
+    font-size: 15px;
+    margin-bottom: 50px;
+}
+
+#ferramentas {
+    text-align: left;
+}
+
+#ferramentas .titulo {
+    font-size: 25px;
+}
+
+#ferramentas .botao {
+    background: #C133B7;
+    border-radius: 20px;
+    width: auto;
+    text-align: center;
+    box-shadow: 0px 25px 6px rgba(0,0,0,0.16);
+}
+
+#ferramentas .botao span {
+    font-weight: 700;
+}
+
+#rocketpage .botao {
+    background: #00A3FF;
+    width: 60%;
+    height: 40px;
+    border-radius: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#rocketpage .botao2 {
+    background: #F9655A;
+    width: 60%;
+    height: 40px;
+    border-radius: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#rocketpage .botao3{
+    background: #00A3FF;
+    width: 60%;
+    height: 40px;
+    border-radius: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#rocketpage .botao4 {
+    background: #F9655A;
+    width: 60%;
+    height: 40px;
+    border-radius: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#cadastro form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#cadastro input {
+    width: 90%;
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 4px;
+}
+
+#cadastro button {
+    background: #C133B7;
+    width: 80%;
+    border-radius: 20px;
+    height: 38px;
+}
