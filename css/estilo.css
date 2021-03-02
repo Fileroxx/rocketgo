@@ -357,6 +357,7 @@ body {
         height: 50px;
         padding-top: 7px;
         margin-top: 40px;
+        margin-left: 0;
     }
 
     #inicial .botao a {
