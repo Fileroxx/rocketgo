@@ -307,7 +307,7 @@ body {
     }
 
     #rocketpage .imagem {
-        width: 50%;
+        width: 40%;
     }
 
     #video iframe {
@@ -430,7 +430,11 @@ body {
     }
 
     #rocketpage .imagem{
-        width: 50%;
+        width: 90%;
+    }
+
+    #rocketpage .imagem .funil {
+        margin-left: 0;
     }
 
     #cadastro input {
@@ -549,7 +553,7 @@ body {
     }
 
     #rocketpage .imagem{
-        width: 50%;
+        width: 65%;
     }
 
     #footer .logo {
