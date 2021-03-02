@@ -343,6 +343,10 @@ body {
         width: 60%;
     }
 
+    #rocketpage .imagem .captura {
+        width: 100%;
+    }
+
     #cadastro input {
         width: 40%;
     }
