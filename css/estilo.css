@@ -173,8 +173,12 @@ body {
 }
 
 #footer .icons{
-    width: 40%;
+    font-size: 25px;
     margin-left: 25%;
+}
+
+#footer .icons i {
+    padding-left: 20px;
 }
 
 /*MEDIA QUERIES*/
@@ -192,6 +196,10 @@ body {
 
    #video iframe {
        width: 250px;
+   }
+
+   #footer .icons {
+       margin-left: -50px;
    }
 }
 
