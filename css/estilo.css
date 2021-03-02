@@ -20,7 +20,7 @@ body {
 
 #inicial .texto .titulo h1{
     font-size: 25px;
-    font-weight: 500;
+    font-weight: 300;
 }
 
 #inicial .texto .titulo span {
@@ -324,100 +324,113 @@ body {
 }
 
 @media screen and (min-width: 1200px) {
-   
-    #inicial .logo {
-        width: 40%;
-    }
-
-    #inicial .imagem {
-        width: 90%;
-    }
-
-    #profissional .imagem {
-        width: 90%;
-    }
-
-    #ferramentas .paragrafo {
-        margin-left: 25%;
-    }
     
-    #ferramentas .botao {
-        width: 40%;
-        margin-left: 27%;
-    }
-
-    #ferramentas .imagem {
-        margin-left: 20%;
-    }
-
-    #rocketpage .imagem {
-        width: 80%;
-    }
-}
-
-@media screen and (min-width: 1366px) {
-
-    #ferramentas .paragrafo {
-        max-width: 600px;
-        margin-left: 25%;
-    }
-
-    #ferramentas .paragrafo .p2 {
-        margin-left: 0;
-    }
-
-    #ferramentas .botao {
-        width: 40%;
-        margin-left: 30%;
-    }
-
-    #ferramentas .imagem {
-        width: 70%;
-        margin-left: 20%;
-    }
-
-    #rocketpage .imagem {
-
-        width: 60%;
-    }
-
-    #rocketpage .imagem .captura {
-        width: 100%;
-    }
-
-    #cadastro input {
-        width: 40%;
-    }
-}
-
-@media screen and (min-width: 1400px) {
 
     #inicial .logo {
-        width: 30%;
+        width: 25%;
+        margin-bottom: 10px;
+    }
+
+    #inicial .texto .titulo h1 {
+        max-width: 500px;
+        font-size: 40px;
+    }
+
+    #inicial .texto .paragrafo .p2 {
+        max-width: 400px;
+        text-align: ju;
+    }
+
+    #inicial .botao{
+        width: 45%;
+        height: 50px;
+        padding-top: 7px;
+        margin-top: 40px;
+    }
+
+    #inicial .botao a {
+        font-weight: 200;
     }
 
     #inicial .imagem {
-        width: 50%;
+        width: 80%;
+        margin-left: -10px;
+    }
+
+    #profissional .titulo {
+        max-width: 600px;
     }
 
     #profissional .imagem {
-        width: 50%;
+        width: 80%;
+        margin-left: 5%;
+    }
+
+    #ferramentas .titulo {
+        font-weight: 300;
+    }
+
+    #ferramentas .titulo span {
+        font-weight: 700;
+        
     }
 
     #ferramentas .paragrafo {
-        margin-left: 27%;
+        margin-left: 20%;
+        text-align: center;
+        max-width: 800px;
+        font-weight: 200;
+    }
+
+    #ferramentas .botao {
+        margin-left: 25%;
     }
 
     #ferramentas .botao a {
-        font-size: 20px;
+        font-size: 25px;
     }
 
     #ferramentas .imagem {
-        margin-left: 25%;
+        margin-left: 35%;
         width: 40%;
     }
 
+    #rocketpage{
+        margin-left: 20%;
+    }
+
+    #rocketpage .paragrafo{
+        font-weight: 200;
+        text-align: justify;
+    }
+
+    #rocketpage .imagem .aviao {
+        width: 100%;
+    }
+
+    #rocketpage .imagem .pessoa {
+        margin-left: 80px;
+    }
+
+    #rocketpage .imagem .funil {
+        margin-left: 20%;
+    }
+
     #rocketpage .imagem{
-        width: 40%;
+        width: 50%;
+    }
+
+    #footer .logo {
+        width: 30%;
+        margin-top: 10px;
+        margin-left: 35%;
+    }
+
+    #footer .icons {
+        margin-top: 10px;
+    }
+
+    #footer p {
+        margin-top: 20px;
     }
 }
