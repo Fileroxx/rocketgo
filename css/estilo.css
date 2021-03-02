@@ -319,9 +319,9 @@ body {
 
 @media screen and (min-width: 1366px) {
 
-    #ferramentas .paragrafo .p1 {
-        max-width: 500px;
-        margin-left: 28%;
+    #ferramentas .paragrafo {
+        max-width: 600px;
+        margin-left: 25%;
     }
 
     #ferramentas .paragrafo .p2 {
@@ -334,28 +334,12 @@ body {
     }
 
     #ferramentas .imagem {
-        width: 50%;
-        margin-left: 25%;
+        width: 70%;
+        margin-left: 40%;
     }
 
     #cadastro input {
         width: 40%;
-    }
-}
-
-@media screen and (min-width: 1367px) {
-    #ferramentas .paragrafo {
-        max-width: 700px;
-        margin-left: 10%;
-    }
-
-    #ferramentas .paragrafo .p2 {
-        margin-left: 30%;
-    }
-
-    #ferramentas .imagem {
-        width: 80%;
-        margin-left: 33%;
     }
 }
 
@@ -378,7 +362,7 @@ body {
     }
 
     #ferramentas .imagem {
-        margin-left: 45%;
+        margin-left: 80%;
     }
 
     #rocketpage .imagem{
