@@ -62,6 +62,10 @@ body {
     box-shadow: 0px 25px 6px rgba(0,0,0,0.16);
 }
 
+#inicial .imagem {
+    width: 100%;
+}
+
 #profissional .titulo {
     font-size: 25px;
     font-weight: 500;
@@ -75,6 +79,10 @@ body {
     font-weight: 300;
     font-size: 15px;
     margin-bottom: 50px;
+}
+
+#profissional .imagem {
+    width: 100%;
 }
 
 #ferramentas {
@@ -92,6 +100,11 @@ body {
     text-align: center;
     box-shadow: 0px 25px 6px rgba(0,0,0,0.16);
     align-items: center;
+    margin-top: 20px;
+}
+
+#ferramentas .imagem {
+    width: 100%;
 }
 
 #ferramentas .botao span {
@@ -100,6 +113,10 @@ body {
 
 #rocketpage .paragrafo {
     text-align: left;
+}
+
+#rocketpage .imagem{
+    width: 100%;
 }
 
 #rocketpage .botao {
@@ -198,15 +215,23 @@ body {
        width: 250px;
    }
 
+
+
    #footer .icons {
        margin-left: -50px;
    }
 }
 
 @media screen and (min-width: 768px) {
+    
     #inicial .logo{
         width: 50%;
         margin-left: -50px;
+    }
+
+    #inicial .imagem {
+        width: 70%;
+        margin-left: 15%;
     }
 
     #ferramentas .titulo{
@@ -223,8 +248,8 @@ body {
     }
 
     #ferramentas .imagem {
-        width: 60%;
-        margin-left: 20%;
+        width: 70%;
+        margin-left: 15%;
     }
 
     #rocketpage .botao {
@@ -235,8 +260,12 @@ body {
         padding-right: 20px;
     }
 
+    #rocketpage .imagem .captura{
+        margin-bottom: 50px;
+    }
+
     #rocketpage .imagem {
-        width: 80%;
+        width: 50%;
     }
 
     #video iframe {
@@ -263,9 +292,6 @@ body {
 
 @media screen and (min-width: 1024px) {
 
-    img {
-        width: 80%;
-    }
 
     #ferramentas .paragrafo {
         max-width: 500px;
@@ -277,8 +303,12 @@ body {
     }
 
     #ferramentas .imagem {
-        width: 70%;
-        margin-left: 22%;
+        width: 60%;
+        margin-left: 20%;
+    }
+
+    #rocketpage .botao {
+      margin-top: 50px;
     }
 
     #cadastro input {
@@ -317,7 +347,7 @@ body {
     }
 
     #ferramentas .imagem {
-        margin-left: 30%;
+        margin-left: 20%;
     }
 
     #rocketpage .imagem {
@@ -343,7 +373,7 @@ body {
 
     #ferramentas .imagem {
         width: 70%;
-        margin-left: 40%;
+        margin-left: 20%;
     }
 
     #rocketpage .imagem {
@@ -367,22 +397,27 @@ body {
     }
 
     #inicial .imagem {
-        width: 80%;
+        width: 50%;
     }
 
     #profissional .imagem {
-        width: 80%;
+        width: 50%;
     }
 
     #ferramentas .paragrafo {
         margin-left: 27%;
     }
 
+    #ferramentas .botao a {
+        font-size: 20px;
+    }
+
     #ferramentas .imagem {
-        margin-left: 43%;
+        margin-left: 25%;
+        width: 40%;
     }
 
     #rocketpage .imagem{
-        width: 70%;
+        width: 40%;
     }
 }
