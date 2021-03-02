@@ -338,6 +338,11 @@ body {
         margin-left: 40%;
     }
 
+    #rocketpage .imagem {
+
+        width: 60%;
+    }
+
     #cadastro input {
         width: 40%;
     }
@@ -366,6 +371,6 @@ body {
     }
 
     #rocketpage .imagem{
-        width: 60%;
+        width: 70%;
     }
 }
